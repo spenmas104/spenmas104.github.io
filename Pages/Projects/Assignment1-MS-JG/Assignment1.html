@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Assignment1CSS.css">
+		<script src="Assignment1JS.js"></script>
+		<title>Number Input</title>
+	</head>
+	
+	<body>
+		<h1>This is the Sum/Average Calculator</h1>
+		<h3>Please input the number you wish to display below.</h3>
+		<h3>Odd numbers will be calculated separately from even numbers</h3>
+		<h3>Add the numbers one at a time, and it will calculated as you add them</h3>
+		<input id="userIn" type="textbox" maxlength="12">
+		<input id="confirm" type="button" value="Enter" onclick="NumDivider();">
+		</br> </br>
+		<table>
+			<tr>
+				<td></td>
+				<th style="border-right: solid black 1px;">Sum</th>
+				<th>Average</th>
+			</tr>
+			<tr>
+				<th>Even</th>
+				<td id="evenSum" style="border-right: solid black 1px;"></td>
+				<td id="evenAvg"></td>
+			</tr>
+			<tr>
+				<th style="border-top: solid black 1px;">Odd</th>
+				<td id="oddSum" style="border-top: solid black 1px; border-right: solid black 1px;"></td>
+				<td id="oddAvg" style="border-top: solid black 1px;"></td>
+			</tr>
+		</table>
+		<img src="spaghet.gif">
+	</body>
+</html>
